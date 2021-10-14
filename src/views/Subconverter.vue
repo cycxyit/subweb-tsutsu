@@ -5,7 +5,7 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.2"/>
-            程源の订阅转换
+            订阅转换
             <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram群" @click="gotoTgChannel" />
           </div>
           <el-container>
@@ -475,7 +475,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "程源の订阅转换 ";
+    document.title = "订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
